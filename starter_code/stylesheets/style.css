@@ -8,3 +8,397 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+* {
+    overflow-x: hidden;
+}
+
+h1,
+body,
+html,
+main {
+    margin: 0;
+}
+
+button {
+    all:unset;
+}
+
+/*Import the font and set the default size*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+
+html {
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 20px;
+}
+
+
+@media(width < 768px){
+#navigation, header{
+ background-color: #540B51 ;
+ color: #F3EAE2;
+ display: flex;
+
+}
+
+.header>ul {
+    display: none;
+}
+
+.hidden{
+    display: none;
+}
+
+#navigation{
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.header{
+    display: flex;
+}
+.logo{
+height: 20px;
+align-items: flex-end;
+}
+
+.first_list, li> a{
+    flex-direction: column ;
+    text-decoration: none;
+    justify-content: flex-start;
+}
+
+.button_top {
+    background-color: transparent;
+    border: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome_text {
+    max-width: 80%;
+}
+
+.button_two{
+    color: #540B51;
+}
+
+.email{
+    background-color: #F3EAE2;
+    width:100%;
+    height: 3rem;
+    font-size:1rem;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .5rem;
+}
+
+
+
+.google{
+    background-color: #4285F4;
+    width: 100%;
+    height: 3rem;
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.google > img {
+    width: 10%;
+    height: 2.5rem;
+    position: absolute;
+    background-color: #F3EAE2;
+    border: 1px solid;
+    border-radius: 5px ;
+}
+
+.google  span {
+    width: 100%;
+    font-size: 1rem;
+}
+
+[alt="Slack app screenshot"] {
+    width: 130%;
+    overflow:hidden;
+}
+
+.main_section {
+    background-color: #F3EAE2;
+    height: 15rem;
+}
+
+.main_section p{
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.75rem;
+}
+
+
+.companies img{
+    height: 2.25rem;
+    margin: 1rem;
+    padding: 0.25rem;
+    text-align: center;
+    
+}
+
+.team {
+    background-color: #F3EAE2;
+}
+.team img{
+    width: 36rem;
+    margin-right: 1rem;
+}
+.bringTeam {
+    text-align:justify;
+    padding: 1rem;
+}
+.bringTeam h2{
+    font-weight: 750;
+    text-align: center;
+}
+.bringTeam p{
+    height: 5rem;
+}
+.bringTeam span::after{   
+    padding: 1rem;
+    text-decoration: none;
+    content:url("../images/icon-arrow-right.png")
+}
+.flex {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #F3EAE2;
+    
+    
+}
+
+.flex [alt="flexibility"] {
+   align-items: flex-end;
+   height: 35rem;
+   margin-left: 1rem;
+}
+
+.flex h2{
+text-align: center;
+font-weight: 800;
+}
+
+.flex span::after{
+    padding: 0.5rem;
+    text-decoration-line: none;
+    content:url("../images/icon-arrow-right.png");
+}
+
+.fast {
+    display:flex;
+    flex-direction: column;
+    background-color: #F3EAE2;
+    padding: 1rem;
+}
+
+.fast [alt="speed"] {
+    align-items: flex-start;
+    width: 36rem;
+    margin-top: 3rem;
+}
+
+.fast h2{
+    font-weight: 800;
+    font-size:2rem;
+    text-align: justify;
+}
+.fast span::after {
+    text-decoration: none;
+    content:url("../images/icon-arrow-right.png");
+}
+.section_3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.section_3 h3{
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+}
+.section_3 .button_team {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+}
+.section_3 .meet {
+    margin-bottom: 1rem;
+    border: 1px solid #540B51;
+    width: 25rem;
+    height: 3rem;
+    color:#F3EAE2;
+    background-color: #540B51;
+}
+
+.section_3 .talk{
+    border: 1px solid #540B51;
+    width: 25rem;
+    height: 3rem;
+    color: #540B51;
+    background-color: white;
+}
+    .section_3 p>.numbers{
+        font-size: 2rem;
+        font-weight: 700;
+        color: #540B51;
+    }
+
+    .section_3 p{
+        font-weight: 700;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .section_4 {
+        display: flex;
+        background-color: #540B51;
+        height: 20rem;
+        flex-direction: column;
+    }
+
+    .section_4 h3{
+        font-size: 2.5rem;
+        text-align: center;
+        color: white;
+    }
+
+    .section_4 .button_4 {
+        text-align: center;
+    }
+    .button_4{
+        border: 1px solid white;
+        margin: 0.5rem;
+        height: 2.5rem;
+    }
+
+    .try{
+        background-color: #F3EAE2;
+        color:#540B51;
+
+    }
+
+    .sale{
+        color: white
+    }
+
+.foot{
+    display: flex;
+    flex-direction: column;
+}
+
+.foot .end_logo{
+    text-align: start;
+    height: 3rem;
+    width: 4rem;
+    margin: 1rem;
+}
+
+.end_text{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+border-bottom: 1px solid gray;
+margin: 0 1rem 
+}
+.end_text ul{
+    font-size: 0.65rem;
+    width: 25%;
+    padding: .6em;
+}
+
+.end_text li {
+    margin-bottom: 1em;
+}
+
+.end_text>ul>li:nth-child(1){
+    font-size: .75rem;
+    font-weight: 700;
+}
+ .last li {
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+.last :nth-child(7)::before{
+    padding-right: .25rem;
+    content:url(../images/icon-download.png);
+    
+}
+
+.last :nth-child(7){
+color:#4285F4;
+
+}
+.icons{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+}
+
+@media (min-width:768px) and (max-width: 1024px) {
+
+#navigation, header{
+ background-color: #540B51 ;
+ color: #F3EAE2;
+ display: flex;
+}
+
+.header>ul {
+    display: none;
+}
+
+.hidden{
+    display: none;
+}
+
+#navigation{
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.header{
+    display: flex;
+}
+.logo{
+height: 20px;
+align-items: flex-end;
+}
+
+.google > img {
+    width: 10%;
+    height: 2.5rem;
+    position: absolute;
+    background-color: #F3EAE2;
+    border: 1px solid;
+    border-radius: 5px ;
+}
+
+}
+
+
+
+
+
+

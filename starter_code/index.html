@@ -8,20 +8,19 @@
 
   <!-- link the Font Awesome stylesheet - CDN -->
   <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet" />
-
   <!-- link your styles -->
-  <link rel="stylesheet" href="./stylesheets/style.css" />
+  <link rel="stylesheet" href="./stylesheets/style.css">
 
   <link rel="icon" type="image/x-icon" href="./images/slack-icon.png">
   <title>Slack is your digital HQ | Slack</title>
 </head>
 
 <body>
-  <nav>
-    <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
+  <nav id="navigation">
+    <div class="header">
+      <img class="logo" src="./images/slack-logo.png" alt="Slack logo" />
 
-      <ul>
+      <ul class="first_list">
         <li>
           <a href="#">Product</a>
         </li>
@@ -38,15 +37,15 @@
     </div>
 
     <div>
-      <button>
+      <button class="button_top">
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
 
-      <button>
+      <button class="button_top">
         <img src="./images/icon-menu.png" alt="Menu icon">
       </button>
 
-      <ul hidden>
+      <ul class="hidden">
         <li>
           <a href="#">Sign in</a>
         </li>
@@ -58,15 +57,15 @@
   </nav>
 
   <header>
-    <div>
+    <div class="welcome_text">
       <h1>Great teamwork starts with a digital HQ</h1>
 
       <p>Slack is free to try for as long as you'd like.</p>
 
-      <div>
-        <button>Sign up with email</button>
+      <div class="button_two">
+        <button class="email">Sign up with email</button>
 
-        <button>
+        <button class="google">
           <img src="./images/logo-google.png" alt="Google logo" />
           <span>Sign up with Google</span>
         </button>
@@ -79,11 +78,12 @@
     </div>
   </header>
 
+
   <main>
-    <section>
+    <section class="main_section">
       <p>Trusted by companies all over the world</p>
 
-      <div>
+      <div class="companies">
         <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
         <img src="./images/logo-nasa.png" alt="NASA logo" />
         <img src="./images/logo-uber.png" alt="Uber logo" />
@@ -94,12 +94,12 @@
 
     </section>
 
-    <section>
+    <section class="team">
       <div>
         <img src="./images/connectedness-mobile.png" alt="connectedness" />
       </div>
 
-      <div>
+      <div class="bringTeam">
         <h2>Bring your team together</h2>
 
         <p>
@@ -113,7 +113,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="flex">
       <div>
         <h2>Choose how you want to work</h2>
         <p>
@@ -132,7 +132,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="fast">
       <div>
         <img src="./images/speed-mobile.png" alt="speed" />
       </div>
@@ -151,18 +151,18 @@
     </section>
 
 
-    <section>
+    <section class="section_3">
       <h3>Teams large and small rely on Slack</h3>
       <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
 
-      <div>
-        <button>Meet Slack for enterprise</button>
-        <button>Talk to sales</button>
+      <div class="button_team">
+        <button class="meet">Meet Slack for enterprise</button>
+        <button class="talk">Talk to sales</button>
       </div>
 
       <ul>
         <li>
-          <p><span>85%</span></p>
+          <p><span class="numbers">85%</span></p>
           <p>
             of users say Slack has improved communication
             <sup>*</sup>
@@ -170,7 +170,7 @@
         </li>
 
         <li>
-          <p><span>86%</span></p>
+          <p><span class="numbers">86%</span></p>
           <p>
             feel their ability to work remotely has improved has improved
             <sup>*</sup>
@@ -178,7 +178,7 @@
         </li>
 
         <li>
-          <p><span>88%</span></p>
+          <p><span class="numbers">88%</span></p>
           <p>
             feel more connected to their teams*
             <sup>*</sup>
@@ -187,18 +187,18 @@
       </ul>
     </section>
 
-    <section>
+    <section class="section_4">
       <h3>Welcome to your new digital HQ</h3>
 
-      <button>Try for free</button>
-      <button>Talk to sales</button>
+      <button class="button_4 try">Try for free</button>
+      <button class="button_4 sale">Talk to sales</button>
     </section>
 
   </main>
 
-  <footer>
-    <img src="./images/iso-slack.png" alt="Slack logo" />
-    <div>
+  <footer class="foot">
+    <img class="end_logo" src="./images/iso-slack.png" alt="Slack logo" />
+    <div class="end_text">
       <ul>
         <li>WHY SLACK?</li>
         <li>Slack vs. Email</li>
@@ -235,7 +235,7 @@
     </div>
 
 
-    <ul>
+    <ul class="last">
       <li>Status</li>
       <li>Privacy</li>
       <li>Terms</li>
@@ -247,7 +247,7 @@
 
     <hr>
 
-    <ul>
+    <ul class="icons">
       <li>
         <i class="fab fa-twitter"></i>
       </li>
